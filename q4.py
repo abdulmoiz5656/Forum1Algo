@@ -1,0 +1,5 @@
+d = int(input("Enter an integer"))
+num1 = int("%s" % d)
+num2 = int("%s%s" % (d, d))
+num3 = int("%s%s%s" %(d, d, d))
+print(num1 + num2 + num3)
